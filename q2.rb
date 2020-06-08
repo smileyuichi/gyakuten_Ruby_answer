@@ -4,4 +4,4 @@ array1 = %w(dog cat fish)
 array2 = %w(bird bat tiger)
 
 array = array1 + array2
-puts array
+p array

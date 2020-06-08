@@ -6,4 +6,4 @@ array = ["1", "2", "3", "4", "5"]
 # puts array.map!{|n| n.to_i}
 
 #省略形
-puts array.map!(&:to_i)
+p array.map!(&:to_i)

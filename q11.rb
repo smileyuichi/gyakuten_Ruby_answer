@@ -3,9 +3,12 @@
 sports = ["サッカー", "バスケ", "野球", ["フットサル", "野球"], "水泳", "ハンドボール", ["卓球", "サッカー", "ボルダリング"]]
 
 # flattenメソッドでネストされた配列を平滑化  
-flat_sports = sports.flatten
+#flat_sports = sports.flatten
 # 重複した要素を削除
-favorite_sports = flat_sports.uniq
+#favorite_sports = flat_sports.uniq
+
+#ネストされた配列を平滑化して、かつ重複した要素を削除
+favorite_sports = sports.flatten.uniq
 
 puts "ユーザーの趣味一覧"
 favorite_sports.each_with_index do |sport,i|

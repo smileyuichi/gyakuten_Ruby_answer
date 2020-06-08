@@ -2,8 +2,8 @@
 
 names = ["田中", "佐藤", "佐々木", "高橋"]
 
-names.each_with_index do |name,i|
-    puts "会員No.#{i + 1} #{name}さん"
+names.each.with_index(1) do |name,i|
+    puts "会員No.#{i} #{name}さん"
 end
 
 # 期待結果

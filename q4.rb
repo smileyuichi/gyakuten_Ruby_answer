@@ -2,6 +2,6 @@
 
 sports = ["サッカー", "フットサル", nil, "野球", "バスケ", nil, "バレー"]
 
-sports.delete(nil)
+sports.compact!
 
-puts sports
+p sports

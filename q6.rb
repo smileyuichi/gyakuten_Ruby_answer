@@ -4,4 +4,4 @@ numbers1 = [1, 2, 3, 4, 5]
 
 numbers2 = numbers1.map {|number| number * 10}
 
-puts numbers2
+p numbers2
